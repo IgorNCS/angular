@@ -1,0 +1,8 @@
+<hr>
+<p>exemplo-servicos2 works!</p>
+<hr>
+<label for="nome"> Digite o seu sobrenome:</label>
+<input type="text" [(ngModel)]="sobrenome">
+<button type="button" (click)="this.logger.logar(this.sobrenome)">Add Sobrenome</button>
+
+<button type="button" (click)="this.logger.exibirTodosOsLogs()">Exibe tudo</button>

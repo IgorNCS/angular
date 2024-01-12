@@ -1,0 +1,5 @@
+<p>componente-filho works!</p>
+<h4>Recido do pai {{sobrenome}}</h4>
+<h3>Escreva o nome para o pai pegar via #</h3>
+<input type="text" id="nome" [(ngModel)]="nome">
+<button (click)="funcaoNoFilho.emit(nome + ' '+sobrenome)">Alerta de filho pra pai</button>

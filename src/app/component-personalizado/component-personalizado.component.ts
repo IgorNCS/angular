@@ -1,0 +1,11 @@
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-component-personalizado',
+  templateUrl: './component-personalizado.component.html',
+  styleUrls: ['./component-personalizado.component.css']
+})
+export class ComponentPersonalizadoComponent {
+  @Input() nome = '';
+  @Input() sobrenome = '';
+}

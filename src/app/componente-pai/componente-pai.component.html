@@ -1,0 +1,3 @@
+<p>componente-pai works!</p>
+<h3>O sobrenome ta no pai: {{sobrenome}} e {{valor.nome}}</h3>
+<app-componente-filho [sobrenome]="sobrenome" #valor (funcaoNoFilho)="funcaoDisparar($event)"></app-componente-filho>
